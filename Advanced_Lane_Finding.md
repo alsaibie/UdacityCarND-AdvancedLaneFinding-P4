@@ -71,7 +71,7 @@ def calibrate_cam(cal_imgs):
 
             # Test First Image
             if TestChessDraw == True:
-                chess_test_img = cv2.drawChessboardCorners(img, (8,6), corners, ret)
+                chess_test_img = cv2.drawChessboardCorners(img, (9,6), corners, ret)
                 plt.imshow(chess_test_img)
                 TestChessDraw = False
     # Get calibration parameters
